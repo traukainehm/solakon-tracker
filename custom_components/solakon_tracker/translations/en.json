@@ -3,9 +3,18 @@
     "step": {
       "user": {
         "title": "Connect to Solakon Tracker",
-        "description": "Enter the base URL of your Solakon device.",
+        "description": "Enter the base URL and polling interval for your Solakon device.",
         "data": {
-          "host": "Device URL"
+          "host": "Device URL",
+          "update_interval": "Update interval (seconds)"
+        }
+      },
+      "reconfigure": {
+        "title": "Reconfigure Solakon Tracker",
+        "description": "Enter the base URL and polling interval for your Solakon device.",
+        "data": {
+          "host": "Device URL",
+          "update_interval": "Update interval (seconds)"
         }
       }
     },

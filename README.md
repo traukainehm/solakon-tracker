@@ -13,6 +13,6 @@ Copy `custom_components/solakon_tracker` into the `custom_components` directory 
 
 ## Entities
 
-The integration creates sensors for instantaneous total and per-phase power, positive and returned energy totals, meter identification, and device hardware, firmware, serial number, Wi-Fi MAC address, and uptime. Device-information entities are marked as diagnostics.
+The integration creates sensors for instantaneous total and per-phase power, positive and returned energy totals, meter identification, and device hardware, firmware, serial number, Wi-Fi MAC address, and uptime. Device-information entities are marked as diagnostics. The polling interval defaults to 30 seconds and can be set from 5 to 3600 seconds during setup or reconfiguration.
 
 The integration currently consumes `/api/v1/status`; additional API paths can be added when their URLs and response formats are available.
