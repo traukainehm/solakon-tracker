@@ -1,0 +1,16 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to Solakon Tracker",
+        "description": "Enter the base URL of your Solakon device.",
+        "data": {
+          "host": "Device URL"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Unable to connect or the status response was invalid."
+    }
+  }
+}
